@@ -21,7 +21,9 @@ class MoviesComponent extends Component {
       );
     return (
       <div className="">
-        <p className="p-3">Currently there are {count} in the DataBase</p>
+        <p className="p-3">
+          Currently there are {count} Movies in the DataBase
+        </p>
         <table className="table table-striped">
           <thead>
             <tr>
