@@ -5,7 +5,9 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light mb-3">
       <div className="container-fluid">
         <Link className="navbar-brand" to="#">
-          <span className="badge badge-pill">MovieSort</span>
+          <span className="badge badge-pill bg-primary fst-italic">
+            MovieSort
+          </span>
         </Link>
         <button
           className="navbar-toggler"
